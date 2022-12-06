@@ -1,0 +1,36 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    margin-bottom: 60px;
+}
+footer{
+    background-color: #4f4f4f;
+    color: white;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.jumbotron{
+    background: #C5D2C7;
+    background-size: cover;
+}
+.jumbotron p{
+    font-size: 25px;
+}
+@media (max-width: 768px){
+    #qr-reader{
+        width: 350px;
+    }
+}
+@media (max-width: 230px){
+    #qr-reader{
+        width: 55%;
+    }
+}
+
+
+
